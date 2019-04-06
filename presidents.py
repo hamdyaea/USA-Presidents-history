@@ -2,11 +2,13 @@
 
 # Developer : Hamdy Abou El Anein
 
+# This software is not finish I am working on it. I publish it to test it.
+
 import json
 from easygui import *
 
 def parser():
-    with open('presidents.json') as json_file:
+    with open('https://raw.githubusercontent.com/hamdyaea/USA-Presidents-history/master/presidents.json') as json_file:
         data = json.load(json_file)
         print(data[1]["number"])
         print(data[1]["president"])
