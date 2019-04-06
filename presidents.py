@@ -7,6 +7,9 @@
 import json
 import urllib.request
 from easygui import *
+import wget
+import os
+import sys
 
 def parser():
     urlData = ("https://raw.githubusercontent.com/hamdyaea/USA-Presidents-history/master/presidents.json")
@@ -14,7 +17,18 @@ def parser():
     data = webURL.read()
     encoding = webURL.info().get_content_charset('utf-8')
     presid = json.loads(data.decode(encoding))
-    print(presid[0]["number"])
+
+    filepath = "president.png"
+
+    if os.path.exists(filepath):
+        os.remove(filepath)
+    try:
+        url = presid[0]["picture"]
+        filename = wget.download(url, out="president.png")
+    except:
+        print("picture not available")
+        pass
+
     print(presid[0]["president"])
     print(presid[0]["birth_year"])
     print(presid[0]["death_year"])
@@ -25,8 +39,8 @@ def parser():
     print(presid[0]["history"])
     print(len(presid))
 
-    image = presid[0]["picture"]
-    msg = presid[0]["president"]
+    image = "president.png"
+    msg = ((presid[0]["president"])+str("\n")+str(presid[0]["history"]))
     choices = ["Yes", "No", "No opinion"]
     reply = buttonbox(msg, image=image, choices=choices)
 
