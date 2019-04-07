@@ -1,5 +1,4 @@
-[
-  {"number":1,"president":"George Washington","birth_year":1732,"death_year":1799,"took_office":"1789-04-30","left_office":"1797-03-04","party":"No Party","picture":"https://raw.githubusercontent.com/hamdyaea/USA-Presidents-history/master/pictures/gwashington.png","history":"First president of the United States and member of the Founding Fathers of the United States"},
+[{"number":1,"president":"George Washington","birth_year":1732,"death_year":1799,"took_office":"1789-04-30","left_office":"1797-03-04","party":"No Party","picture":"https://raw.githubusercontent.com/hamdyaea/USA-Presidents-history/master/pictures/gwashington.png","history":"First president of the United States and member of the Founding Fathers of the United States"},
   {"number":2,"president":"John Adams","birth_year":1735,"death_year":1826,"took_office":"1797-03-04","left_office":"1801-03-04","party":"Federalist","picture":"https://github.com/hamdyaea/USA-Presidents-history/blob/master/pictures/johnadams.png","history":"The only Federalist who become president"},
   {"number":3,"president":"Thomas Jefferson","birth_year":1743,"death_year":1826,"took_office":"1801-03-04","left_office":"1809-03-04","party":"Democratic-Republican"},
   {"number":4,"president":"James Madison","birth_year":1751,"death_year":1836,"took_office":"1809-03-04","left_office":"1817-03-04","party":"Democratic-Republican"},
@@ -44,5 +43,5 @@
   {"number":43,"president":"George W. Bush","birth_year":1946,"death_year":null,"took_office":"2001-01-20","left_office":"2009-01-20","party":"Republican"},
   {"number":44,"president":"Barack Obama","birth_year":1961,"death_year":null,"took_office":"2009-01-20","left_office":"2017-01-20","party":"Democratic"},
   {"number":45,"president":"Donald J. Trump","birth_year":1946,"death_year":null,"took_office":"2017-01-20","left_office":null,"party":"Republican"},
-  {"number":46,"president":"Garfield Test","birth_year":1956,"death_year":"-","took_office":"2019-01-20","left_office":"-","party":"Caterian","picture":"https://raw.githubusercontent.com/hamdyaea/USA-Presidents-history/master/pictures/gwashington.png","history":"First president of the United States and member of the Founding Fathers of the United States"}
+  {"number":46,"president":"Garfield Test","birth_year":1956,"death_year":"-","took_office":"2019-01-20","left_office":"-","party":"Caterian","picture":"https://raw.githubusercontent.com/hamdyaea/USA-Presidents-history/master/pictures/gwashington.png","history":"First president of the United States and member of the Founding Fathers of the United States"},
 ]
