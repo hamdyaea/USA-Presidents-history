@@ -40,7 +40,7 @@ def parser():
     print(len(presid))
 
     image = "president.png"
-    msg = ((presid[44]["president"])+str("\n")+str(presid[0]["history"]))
+    msg = ((presid[0]["president"])+str("\n")+str(presid[0]["history"]))
     choices = ["Yes", "No", "No opinion"]
     reply = buttonbox(msg, image=image, choices=choices)
 
