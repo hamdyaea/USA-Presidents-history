@@ -4,6 +4,8 @@
 
 # This software is not finish I am working on it. I publish it to test it.
 
+# Make changes to the json file only with pycharm and json viewer.
+
 import json
 import urllib.request
 from easygui import *
@@ -43,7 +45,5 @@ def parser():
     msg = ((presid[1]["president"])+str("\n")+str(presid[1]["history"]))
     choices = ["Yes", "No", "No opinion"]
     reply = buttonbox(msg, image=image, choices=choices)
-
-
 
 parser()
