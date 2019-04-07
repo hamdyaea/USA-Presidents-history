@@ -5,6 +5,7 @@
 # This software is not finish I am working on it. I publish it to test it.
 
 # Make changes to the json file only with pycharm and json viewer.
+# The data can take time to be fully updated on the server-side. (raw json).
 
 import json
 import urllib.request
