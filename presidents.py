@@ -23,24 +23,24 @@ def parser():
     if os.path.exists(filepath):
         os.remove(filepath)
     try:
-        url = presid[0]["picture"]
+        url = presid[45]["picture"]
         filename = wget.download(url, out="president.png")
     except:
         print("picture not available")
         pass
 
-    print(presid[0]["president"])
-    print(presid[0]["birth_year"])
-    print(presid[0]["death_year"])
-    print(presid[0]["took_office"])
-    print(presid[0]["left_office"])
-    print(presid[0]["party"])
-    print(presid[0]["picture"])
-    print(presid[0]["history"])
+    print(presid[45]["president"])
+    print(presid[45]["birth_year"])
+    print(presid[45]["death_year"])
+    print(presid[45]["took_office"])
+    print(presid[45]["left_office"])
+    print(presid[45]["party"])
+    print(presid[45]["picture"])
+    print(presid[45]["history"])
     print(len(presid))
 
     image = "president.png"
-    msg = ((presid[44]["president"])+str("\n")+str(presid[0]["history"]))
+    msg = ((presid[45]["president"])+str("\n")+str(presid[45]["history"]))
     choices = ["Yes", "No", "No opinion"]
     reply = buttonbox(msg, image=image, choices=choices)
 
