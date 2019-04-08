@@ -20,7 +20,7 @@
 
   <link crossorigin="anonymous" media="all" integrity="sha512-7uoDIEGQ8zTwUS9KjTP+/2I13FQPHvJ9EKoeUThfin5R1+27bcUC08VQzUo4CIjCdhvJM4zxuI+3HcSycAUTCg==" rel="stylesheet" href="https://github.githubassets.com/assets/frameworks-abba74d6e28a6842788159fec056bf26.css" />
   <link crossorigin="anonymous" media="all" integrity="sha512-Wsb8BfzNv6uSaSsIGkjMAg5dS0vabCGm64QV/59sPA6nxyQzqVz4lhaC0kjGwRqXZ1FUsKnxTFt9jngmwYEryQ==" rel="stylesheet" href="https://github.githubassets.com/assets/site-fb3830abec4858c7644fa8b4f8759252.css" />
-    <link crossorigin="anonymous" media="all" integrity="sha512-Z2YOMKbtopokXI5r1lz6WLH2fQA4aP/6xg8xNqF0aCKjWs+2ANRgSNShAktNToJy3IZGIOdvcNXV529X+C2oLA==" rel="stylesheet" href="https://github.githubassets.com/assets/github-71f000b640b83c0663e7e39176d65284.css" />
+    <link crossorigin="anonymous" media="all" integrity="sha512-Y6G3aOlf/U2NR/wIIjpohcCyXJAhnFlHYRK7MWCf8kPfOs/ZwHm8BpsG6qxWLMhtVg70t9PqeHnX5hL538X2Bg==" rel="stylesheet" href="https://github.githubassets.com/assets/github-f54613a1d135ca4f8c267a21bc600847.css" />
     
     
     
@@ -41,7 +41,7 @@
   
   <meta name="pjax-timeout" content="1000">
   
-  <meta name="request-id" content="CBC2:29A29:24303E7:3735566:5CAA4E86" data-pjax-transient>
+  <meta name="request-id" content="A922:45D29:30F52B:48A9A4:5CABC2A7" data-pjax-transient>
 
 
   
@@ -52,7 +52,7 @@
     <meta name="google-site-verification" content="ZzhVyEFwb7w3e0-uOTltm8Jsck2F5StVihD0exw2fsA">
     <meta name="google-site-verification" content="GXs5KoUUkNCoaAZn7wPN-t01Pywp9M3sEjnt_3_ZWPc">
 
-  <meta name="octolytics-host" content="collector.githubapp.com" /><meta name="octolytics-app-id" content="github" /><meta name="octolytics-event-url" content="https://collector.githubapp.com/github-external/browser_event" /><meta name="octolytics-dimension-request_id" content="CBC2:29A29:24303E7:3735566:5CAA4E86" /><meta name="octolytics-dimension-region_edge" content="ams" /><meta name="octolytics-dimension-region_render" content="iad" />
+  <meta name="octolytics-host" content="collector.githubapp.com" /><meta name="octolytics-app-id" content="github" /><meta name="octolytics-event-url" content="https://collector.githubapp.com/github-external/browser_event" /><meta name="octolytics-dimension-request_id" content="A922:45D29:30F52B:48A9A4:5CABC2A7" /><meta name="octolytics-dimension-region_edge" content="ams" /><meta name="octolytics-dimension-region_render" content="iad" />
 <meta name="analytics-location" content="/&lt;user-name&gt;/&lt;repo-name&gt;/blob/show" data-pjax-transient="true" />
 
 
@@ -70,13 +70,13 @@
     <meta name="user-login" content="">
 
       <meta name="expected-hostname" content="github.com">
-    <meta name="js-proxy-site-detection-payload" content="MThmM2QyODhkN2IxZGQ3NmM4YzYzNTk0NzE1MzcwYmJjYWU2OTJhMTc4MDAyM2YxNmU5NzBkMDMzYWVlZGMwOXx7InJlbW90ZV9hZGRyZXNzIjoiODQuNzQuMTcuMTYzIiwicmVxdWVzdF9pZCI6IkNCQzI6MjlBMjk6MjQzMDNFNzozNzM1NTY2OjVDQUE0RTg2IiwidGltZXN0YW1wIjoxNTU0NjY1MDk0LCJob3N0IjoiZ2l0aHViLmNvbSJ9">
+    <meta name="js-proxy-site-detection-payload" content="MTM1OGE0OGExZWQyNjgzY2Y0ZmY0NTcyYjJhNjRmZThjNGFlNGE4N2Y0NWQyOThkNGJkYjNiNjkwY2U3YTZiMXx7InJlbW90ZV9hZGRyZXNzIjoiODQuNzQuMTcuMTYzIiwicmVxdWVzdF9pZCI6IkE5MjI6NDVEMjk6MzBGNTJCOjQ4QTlBNDo1Q0FCQzJBNyIsInRpbWVzdGFtcCI6MTU1NDc2MDM1OSwiaG9zdCI6ImdpdGh1Yi5jb20ifQ==">
 
-    <meta name="enabled-features" content="UNIVERSE_BANNER,MARKETPLACE_SOCIAL_PROOF_CUSTOMERS,MARKETPLACE_TRENDING_SOCIAL_PROOF,MARKETPLACE_UNVERIFIED_LISTINGS,MARKETPLACE_RECOMMENDATIONS">
+    <meta name="enabled-features" content="UNIVERSE_BANNER,MARKETPLACE_INVOICED_BILLING,MARKETPLACE_ENTERPRISE_CONTACTS,MARKETPLACE_SOCIAL_PROOF_CUSTOMERS,MARKETPLACE_TRENDING_SOCIAL_PROOF,MARKETPLACE_RECOMMENDATIONS">
 
-  <meta name="html-safe-nonce" content="6711c5125cffa2d7c02a5c5413a204cfbe51d560">
+  <meta name="html-safe-nonce" content="9c3aa920bb339c8574df0bdf62e9df74ad5ee46d">
 
-  <meta http-equiv="x-pjax-version" content="50f3ebc065bc0c72e5237d6157b4b8a7">
+  <meta http-equiv="x-pjax-version" content="b7ca613d4eac02c48f5c4c79dfef173e">
   
 
       <link href="https://github.com/hamdyaea/USA-Presidents-history/commits/master.atom" rel="alternate" title="Recent Commits to USA-Presidents-history:master" type="application/atom+xml">
@@ -255,7 +255,7 @@
           aria-autocomplete="list"
           aria-controls="jump-to-results"
           aria-label="Search"
-          data-jump-to-suggestions-path="/_graphql/GetSuggestedNavigationDestinations#csrf-token=R6Jl94b8wEnbhSU+apoP6jlQKXo1bhFg/PKTfbqj28oiFrRF8Aq5E9bIbMOcX+2vPaykY9PpdwmWoQn4T9cEKA=="
+          data-jump-to-suggestions-path="/_graphql/GetSuggestedNavigationDestinations#csrf-token=l5R+5ti2Ci12EVRfkZa0pZsOMWKHKzVpXTnTTZu32bLaDWHoadIX6mJ9BijqJ60HGU1287yTF1sD7Nq7Be3gTA=="
           spellcheck="false"
           autocomplete="off"
           >
@@ -380,9 +380,9 @@
 
           </div>
 
-        <a class="HeaderMenu-link no-underline mr-3" data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;site header menu&quot;,&quot;repository_id&quot;:null,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;client_id&quot;:null,&quot;originating_request_id&quot;:&quot;CBC2:29A29:24303E7:3735566:5CAA4E86&quot;,&quot;originating_url&quot;:&quot;https://github.com/hamdyaea/USA-Presidents-history/blob/master/pictures/johnadams.png&quot;,&quot;referrer&quot;:null,&quot;user_id&quot;:null}}" data-hydro-click-hmac="222eee938b753191a4cd5a39efe318fb5a4138021ec2a8691bbedbf066d2232a" data-ga-click="(Logged out) Header, clicked Sign in, text:sign-in" href="/login?return_to=%2Fhamdyaea%2FUSA-Presidents-history%2Fblob%2Fmaster%2Fpictures%2Fjohnadams.png">
+        <a class="HeaderMenu-link no-underline mr-3" data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;site header menu&quot;,&quot;repository_id&quot;:null,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;client_id&quot;:null,&quot;originating_request_id&quot;:&quot;A922:45D29:30F52B:48A9A4:5CABC2A7&quot;,&quot;originating_url&quot;:&quot;https://github.com/hamdyaea/USA-Presidents-history/blob/master/pictures/johnadams.png&quot;,&quot;referrer&quot;:null,&quot;user_id&quot;:null}}" data-hydro-click-hmac="112348d033f47a5513e19f73eefbce21466a18a4903776de4f997875e807bd39" data-ga-click="(Logged out) Header, clicked Sign in, text:sign-in" href="/login?return_to=%2Fhamdyaea%2FUSA-Presidents-history%2Fblob%2Fmaster%2Fpictures%2Fjohnadams.png">
           Sign&nbsp;in
-</a>          <a class="HeaderMenu-link d-inline-block no-underline border border-gray-dark rounded-1 px-2 py-1" data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;site header menu&quot;,&quot;repository_id&quot;:null,&quot;auth_type&quot;:&quot;SIGN_UP&quot;,&quot;client_id&quot;:null,&quot;originating_request_id&quot;:&quot;CBC2:29A29:24303E7:3735566:5CAA4E86&quot;,&quot;originating_url&quot;:&quot;https://github.com/hamdyaea/USA-Presidents-history/blob/master/pictures/johnadams.png&quot;,&quot;referrer&quot;:null,&quot;user_id&quot;:null}}" data-hydro-click-hmac="a6fb0ca4ed067aa0489d4bb1c36aaf84143cf9d3789a37109b14bbba83db5edd" data-ga-click="(Logged out) Header, clicked Sign up, text:sign-up" href="/join">
+</a>          <a class="HeaderMenu-link d-inline-block no-underline border border-gray-dark rounded-1 px-2 py-1" data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;site header menu&quot;,&quot;repository_id&quot;:null,&quot;auth_type&quot;:&quot;SIGN_UP&quot;,&quot;client_id&quot;:null,&quot;originating_request_id&quot;:&quot;A922:45D29:30F52B:48A9A4:5CABC2A7&quot;,&quot;originating_url&quot;:&quot;https://github.com/hamdyaea/USA-Presidents-history/blob/master/pictures/johnadams.png&quot;,&quot;referrer&quot;:null,&quot;user_id&quot;:null}}" data-hydro-click-hmac="89c3ec37b2171f1e1933d1fb94d4ee4ed75aba0faaadb5ca6f0e0876d8440a51" data-ga-click="(Logged out) Header, clicked Sign up, text:sign-up" href="/join">
             Sign&nbsp;up
 </a>      </div>
     </div>
@@ -421,7 +421,7 @@
 
   <li>
     
-  <a class="tooltipped tooltipped-s btn btn-sm btn-with-count" aria-label="You must be signed in to watch a repository" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;notification subscription menu watch&quot;,&quot;repository_id&quot;:null,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;client_id&quot;:null,&quot;originating_request_id&quot;:&quot;CBC2:29A29:24303E7:3735566:5CAA4E86&quot;,&quot;originating_url&quot;:&quot;https://github.com/hamdyaea/USA-Presidents-history/blob/master/pictures/johnadams.png&quot;,&quot;referrer&quot;:null,&quot;user_id&quot;:null}}" data-hydro-click-hmac="0da00d00016e1354ef2d602ed7fe2da56d2f544780b831df64960458b00178d2" href="/login?return_to=%2Fhamdyaea%2FUSA-Presidents-history">
+  <a class="tooltipped tooltipped-s btn btn-sm btn-with-count" aria-label="You must be signed in to watch a repository" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;notification subscription menu watch&quot;,&quot;repository_id&quot;:null,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;client_id&quot;:null,&quot;originating_request_id&quot;:&quot;A922:45D29:30F52B:48A9A4:5CABC2A7&quot;,&quot;originating_url&quot;:&quot;https://github.com/hamdyaea/USA-Presidents-history/blob/master/pictures/johnadams.png&quot;,&quot;referrer&quot;:null,&quot;user_id&quot;:null}}" data-hydro-click-hmac="a719856ca67f1665f678009b058cee0fa1fc7307cbf08bf86d008c46e33b9654" href="/login?return_to=%2Fhamdyaea%2FUSA-Presidents-history">
     <svg class="octicon octicon-eye v-align-text-bottom" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.06 2C3 2 0 8 0 8s3 6 8.06 6C13 14 16 8 16 8s-3-6-7.94-6zM8 12c-2.2 0-4-1.78-4-4 0-2.2 1.8-4 4-4 2.22 0 4 1.8 4 4 0 2.22-1.78 4-4 4zm2-4c0 1.11-.89 2-2 2-1.11 0-2-.89-2-2 0-1.11.89-2 2-2 1.11 0 2 .89 2 2z"/></svg>
     Watch
 </a>    <a class="social-count" href="/hamdyaea/USA-Presidents-history/watchers"
@@ -432,7 +432,7 @@
   </li>
 
   <li>
-        <a class="btn btn-sm btn-with-count tooltipped tooltipped-s" aria-label="You must be signed in to star a repository" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;star button&quot;,&quot;repository_id&quot;:179860119,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;client_id&quot;:null,&quot;originating_request_id&quot;:&quot;CBC2:29A29:24303E7:3735566:5CAA4E86&quot;,&quot;originating_url&quot;:&quot;https://github.com/hamdyaea/USA-Presidents-history/blob/master/pictures/johnadams.png&quot;,&quot;referrer&quot;:null,&quot;user_id&quot;:null}}" data-hydro-click-hmac="12105230fc5716fb065ec295ea75b6a8dde930352ea3a387c2b543a07966abdc" href="/login?return_to=%2Fhamdyaea%2FUSA-Presidents-history">
+        <a class="btn btn-sm btn-with-count tooltipped tooltipped-s" aria-label="You must be signed in to star a repository" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;star button&quot;,&quot;repository_id&quot;:179860119,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;client_id&quot;:null,&quot;originating_request_id&quot;:&quot;A922:45D29:30F52B:48A9A4:5CABC2A7&quot;,&quot;originating_url&quot;:&quot;https://github.com/hamdyaea/USA-Presidents-history/blob/master/pictures/johnadams.png&quot;,&quot;referrer&quot;:null,&quot;user_id&quot;:null}}" data-hydro-click-hmac="e6d89c64d40d6dce81aeb8bbdc99fb83d2997d54ed98d1c8cbc787e8229e80ab" href="/login?return_to=%2Fhamdyaea%2FUSA-Presidents-history">
       <svg class="octicon octicon-star v-align-text-bottom" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"/></svg>
       Star
 </a>
@@ -444,7 +444,7 @@
   </li>
 
   <li>
-      <a class="btn btn-sm btn-with-count tooltipped tooltipped-s" aria-label="You must be signed in to fork a repository" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;repo details fork button&quot;,&quot;repository_id&quot;:179860119,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;client_id&quot;:null,&quot;originating_request_id&quot;:&quot;CBC2:29A29:24303E7:3735566:5CAA4E86&quot;,&quot;originating_url&quot;:&quot;https://github.com/hamdyaea/USA-Presidents-history/blob/master/pictures/johnadams.png&quot;,&quot;referrer&quot;:null,&quot;user_id&quot;:null}}" data-hydro-click-hmac="2c8125cb302dd32a0ca5c69be177114dbdebadc52ba329fc4eda5d8410af3023" href="/login?return_to=%2Fhamdyaea%2FUSA-Presidents-history">
+      <a class="btn btn-sm btn-with-count tooltipped tooltipped-s" aria-label="You must be signed in to fork a repository" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;repo details fork button&quot;,&quot;repository_id&quot;:179860119,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;client_id&quot;:null,&quot;originating_request_id&quot;:&quot;A922:45D29:30F52B:48A9A4:5CABC2A7&quot;,&quot;originating_url&quot;:&quot;https://github.com/hamdyaea/USA-Presidents-history/blob/master/pictures/johnadams.png&quot;,&quot;referrer&quot;:null,&quot;user_id&quot;:null}}" data-hydro-click-hmac="26069ddcadc827c8bb1f04d72f849a99fbf1e5bdd0840110d2e05d4f9b23612a" href="/login?return_to=%2Fhamdyaea%2FUSA-Presidents-history">
         <svg class="octicon octicon-repo-forked v-align-text-bottom" viewBox="0 0 10 16" version="1.1" width="10" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 1a1.993 1.993 0 0 0-1 3.72V6L5 8 3 6V4.72A1.993 1.993 0 0 0 2 1a1.993 1.993 0 0 0-1 3.72V6.5l3 3v1.78A1.993 1.993 0 0 0 5 15a1.993 1.993 0 0 0 1-3.72V9.5l3-3V4.72A1.993 1.993 0 0 0 8 1zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3 10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3-10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg>
         Fork
 </a>
@@ -521,20 +521,20 @@
 
 
   
-    <a class="d-none js-permalink-shortcut" data-hotkey="y" href="/hamdyaea/USA-Presidents-history/blob/e5138240d6181db77b13553636e865513867703c/pictures/johnadams.png">Permalink</a>
+    <a class="d-none js-permalink-shortcut" data-hotkey="y" href="/hamdyaea/USA-Presidents-history/blob/cd84e4df039cc782898ca61bab9e9bab5afc26f4/pictures/johnadams.png">Permalink</a>
 
     <!-- blob contrib key: blob_contributors:v21:42906ca8a46a07344f5462df460ca266 -->
 
         <div class="signup-prompt-bg rounded-1">
       <div class="signup-prompt p-4 text-center mb-4 rounded-1">
         <div class="position-relative">
-          <!-- '"` --><!-- </textarea></xmp> --></option></form><form action="/site/dismiss_signup_prompt" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="CY0GISY8seA3DSBFzafwkUU0LUvoyET3ZNnhG244HXAZB5Z5Mi8w67RgG2x/Oqy/B/5PhNMRri1VdXBn3I66Og==" />
+          <!-- '"` --><!-- </textarea></xmp> --></option></form><form action="/site/dismiss_signup_prompt" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="BC5+mu6Qk4iS1GZjc+0Ey660sUwfD4aQ04MxnzStY47lIyFzaNbhkiFFtz/Wtr/in3lCIBapu+pQeu7ZjJ/NGg==" />
             <button type="submit" class="position-absolute top-0 right-0 btn-link link-gray" data-ga-click="(Logged out) Sign up prompt, clicked Dismiss, text:dismiss">
               Dismiss
             </button>
 </form>          <h3 class="pt-2">Join GitHub today</h3>
           <p class="col-6 mx-auto">GitHub is home to over 31 million developers working together to host and review code, manage projects, and build software together.</p>
-          <a class="btn btn-primary" data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;files signup prompt&quot;,&quot;repository_id&quot;:null,&quot;auth_type&quot;:&quot;SIGN_UP&quot;,&quot;client_id&quot;:null,&quot;originating_request_id&quot;:&quot;CBC2:29A29:24303E7:3735566:5CAA4E86&quot;,&quot;originating_url&quot;:&quot;https://github.com/hamdyaea/USA-Presidents-history/blob/master/pictures/johnadams.png&quot;,&quot;referrer&quot;:null,&quot;user_id&quot;:null}}" data-hydro-click-hmac="1ad65c106ab89171bada27136fe8399f294b548161fc7e69249150e4cb22a605" data-ga-click="(Logged out) Sign up prompt, clicked Sign up, text:sign-up" href="/join?source=prompt-blob-show">Sign up</a>
+          <a class="btn btn-primary" data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;files signup prompt&quot;,&quot;repository_id&quot;:null,&quot;auth_type&quot;:&quot;SIGN_UP&quot;,&quot;client_id&quot;:null,&quot;originating_request_id&quot;:&quot;A922:45D29:30F52B:48A9A4:5CABC2A7&quot;,&quot;originating_url&quot;:&quot;https://github.com/hamdyaea/USA-Presidents-history/blob/master/pictures/johnadams.png&quot;,&quot;referrer&quot;:null,&quot;user_id&quot;:null}}" data-hydro-click-hmac="ea29fc2b5eb76b79457693722ac223c01392015213974ec8c899dbd7f75b9112" data-ga-click="(Logged out) Sign up prompt, clicked Sign up, text:sign-up" href="/join?source=prompt-blob-show">Sign up</a>
         </div>
       </div>
     </div>
@@ -558,9 +558,9 @@
   </details-menu>
 </details>
 
-      <div id="blob-path" class="breadcrumb d-flex flex-wrap flex-auto flex-items-center flex-self-stretch ml-2">
+      <h2 id="blob-path" class="breadcrumb flex-auto flex-self-center min-width-0 text-normal mx-2">
         <span class="js-repo-root text-bold"><span class="js-path-segment"><a data-pjax="true" href="/hamdyaea/USA-Presidents-history"><span>USA-Presidents-history</span></a></span></span><span class="separator">/</span><span class="js-path-segment"><a data-pjax="true" href="/hamdyaea/USA-Presidents-history/tree/master/pictures"><span>pictures</span></a></span><span class="separator">/</span><strong class="final-path">johnadams.png</strong>
-      </div>
+      </h2>
       <div class="BtnGroup d-flex flex-justify-end flex-shrink-0">
         <a href="/hamdyaea/USA-Presidents-history/find/master"
               class="js-pjax-capture-input btn btn-sm BtnGroup-item"
@@ -576,44 +576,16 @@
 
 
 
-    
-  <div class="Box Box--condensed d-flex flex-column flex-shrink-0">
-      <div class="Box-body d-flex flex-justify-between bg-blue-light flex-items-center">
-        <span class="pr-md-4 f6">
-          <img class="avatar" width="20" height="20" alt="" src="https://camo.githubusercontent.com/ede09c20ee6d6109a4509a59da5792f5ffdeb7d5/68747470733a2f2f302e67726176617461722e636f6d2f6176617461722f65643461653231613931623461323131396564613664393936666166356636343f643d68747470732533412532462532466769746875622e6769746875626173736574732e636f6d253246696d6167657325324667726176617461727325324667726176617461722d757365722d3432302e706e6726723d6726733d313430" data-canonical-src="https://0.gravatar.com/avatar/ed4ae21a91b4a2119eda6d996faf5f64?d=https%3A%2F%2Fgithub.githubassets.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png&amp;r=g&amp;s=140" />
-          <span class="text-bold link-gray-dark lh-default v-align-middle">hamdyaea</span>
-            <span class="lh-default v-align-middle">
-              <a data-pjax="true" title="first commit" class="link-gray" href="/hamdyaea/USA-Presidents-history/commit/5d977946bcdf43b6fa1b76e5459a451acc3e3904">first commit</a>
-            </span>
-        </span>
-        <span class="d-inline-block flex-shrink-0 v-align-bottom f6">
-          <a class="pr-2 text-mono link-gray" href="/hamdyaea/USA-Presidents-history/commit/5d977946bcdf43b6fa1b76e5459a451acc3e3904" data-pjax>5d97794</a>
-          <relative-time datetime="2019-04-06T16:45:51Z">Apr 6, 2019</relative-time>
-        </span>
+    <include-fragment src="/hamdyaea/USA-Presidents-history/contributors/master/pictures/johnadams.png" class="Box Box--condensed commit-loader">
+      <div class="Box-body bg-blue-light f6">
+        Fetching contributors&hellip;
       </div>
 
-    <div class="Box-body d-flex flex-items-center flex-auto f6 border-bottom-0" >
-      <details class="details-reset details-overlay details-overlay-dark lh-default text-gray-dark float-left mr-2" id="blob_contributors_box" >
-        <summary class="btn-link" aria-haspopup="dialog">
-          <span><strong>0</strong> contributors</span>
-        </summary>
-        <details-dialog class="Box Box--overlay d-flex flex-column anim-fade-in fast" aria-label="Users who have contributed to this file">
-          <div class="Box-header">
-            <button class="Box-btn-octicon btn-octicon float-right" type="button" aria-label="Close dialog" data-close-dialog>
-              <svg class="octicon octicon-x" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48L7.48 8z"/></svg>
-            </button>
-            <h3 class="Box-title">
-              Users who have contributed to this file
-            </h3>
-          </div>
-              <ul class="list-style-none overflow-auto">
-</ul>
-
-        </details-dialog>
-      </details>
-    </div>
-  </div>
-
+      <div class="Box-body d-flex flex-items-center" >
+          <img alt="" class="loader-loading mr-2" src="https://github.githubassets.com/images/spinners/octocat-spinner-32-EAF2F5.gif" width="16" height="16" />
+        <span class="text-red h6 loader-error">Cannot retrieve contributors at this time</span>
+      </div>
+</include-fragment>
 
 
 
@@ -636,7 +608,7 @@
 
     <div>
 
-          <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="inline-form" action="/hamdyaea/USA-Presidents-history/delete/master/pictures/johnadams.png" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="piG0G0zARDPI2QoM5ISDoWwi+I2m7cBfEMG+rxIz0fgp6abYo1PQ3GcmAbokbViicpvtKIJQiJ/m98+4py8p9w==" />
+          <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="inline-form" action="/hamdyaea/USA-Presidents-history/delete/master/pictures/johnadams.png" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="dlzWkJst5j+wUj428eU2hLBChik55R48/fSKSJ6y+rhyhQ3QA5R78xlSI23xXT2LEi8PzUOyN6S3LD0bei0Gcg==" />
             <button class="btn-octicon btn-octicon-danger tooltipped tooltipped-nw" type="submit"
               aria-label="You must be signed in to make or propose changes" data-disable-with>
               <svg class="octicon octicon-trashcan" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M11 2H9c0-.55-.45-1-1-1H5c-.55 0-1 .45-1 1H2c-.55 0-1 .45-1 1v1c0 .55.45 1 1 1v9c0 .55.45 1 1 1h7c.55 0 1-.45 1-1V5c.55 0 1-.45 1-1V3c0-.55-.45-1-1-1zm-1 12H3V5h1v8h1V5h1v8h1V5h1v8h1V5h1v9zm1-10H2V3h9v1z"/></svg>
@@ -682,7 +654,7 @@
 <div class="footer container-lg width-full px-3" role="contentinfo">
   <div class="position-relative d-flex flex-justify-between pt-6 pb-2 mt-6 f6 text-gray border-top border-gray-light ">
     <ul class="list-style-none d-flex flex-wrap ">
-      <li class="mr-3">&copy; 2019 <span title="0.23646s from unicorn-55466ccfb8-p4tkq">GitHub</span>, Inc.</li>
+      <li class="mr-3">&copy; 2019 <span title="0.24809s from unicorn-6d86b8575f-cdgd5">GitHub</span>, Inc.</li>
         <li class="mr-3"><a data-ga-click="Footer, go to terms, text:terms" href="https://github.com/site/terms">Terms</a></li>
         <li class="mr-3"><a data-ga-click="Footer, go to privacy, text:privacy" href="https://github.com/site/privacy">Privacy</a></li>
         <li class="mr-3"><a data-ga-click="Footer, go to security, text:security" href="https://github.com/security">Security</a></li>
@@ -720,9 +692,9 @@
 
 
     <script crossorigin="anonymous" integrity="sha512-jFuNBkwlIX73xJbI2nTCs01W/xjwP+Ccc0gEdkD4d/tQBv4xIZx4dZLnkYhzawWhnxjJbvkHsxSXQffNs0Ce4Q==" type="application/javascript" src="https://github.githubassets.com/assets/compat-bootstrap-8102d067.js"></script>
-    <script crossorigin="anonymous" integrity="sha512-bphhLbLcXwgzeVnBMcSG8SOa16cgriNbZcgA9uWXAlGEFY58lcBmENXevq9CR1d+61CN6gKopmvT9eMxqQAvdA==" type="application/javascript" src="https://github.githubassets.com/assets/frameworks-bf3c39df.js"></script>
+    <script crossorigin="anonymous" integrity="sha512-Po+6fl3YIwZdNtWl3C3nGE9CGFS+0MzH0G6STL8GfI2R+WYiI1+CcKm46eAOlNaQZIQkJGRVe7MtIw0FbgKZmg==" type="application/javascript" src="https://github.githubassets.com/assets/frameworks-e17730b3.js"></script>
     
-    <script crossorigin="anonymous" async="async" integrity="sha512-XI/rhcvulwKFLPlHbYi81zUJQCq+F1v9dZElmEn84DLxovRUW/NhmTcF/buTFvUC7JhKWBFlTAoFvETEKevBgg==" type="application/javascript" src="https://github.githubassets.com/assets/github-bootstrap-cca2ad18.js"></script>
+    <script crossorigin="anonymous" async="async" integrity="sha512-hNnnh9UTkDDl6DEEEdDuRLtyiNqh7yaSvy+X4WfO7zQjK7yb1QWUOWByGf1y4hlyhKgrZzPpHLo7FTlmumWGMg==" type="application/javascript" src="https://github.githubassets.com/assets/github-bootstrap-0413f550.js"></script>
     
     
     
