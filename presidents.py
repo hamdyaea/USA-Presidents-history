@@ -19,16 +19,17 @@ key = 0
 def first():
     global key
 
+    if key > (len(presid)-1):
+        key = 0
+
     filepath = "president.png"
 
     if os.path.exists(filepath):
         os.remove(filepath)
-    try:
-        url = presid[key]["picture"]
-        filename = wget.download(url, out="president.png")
-    except:
-        print("picture not available")
-        pass
+
+    url = presid[key]["picture"]
+    filename = wget.download(url, out="president.png")
+
 
     image = "president.png"
     msg = (("Name : ")+str(presid[key]["president"])\
