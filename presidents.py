@@ -60,7 +60,8 @@ def first():
 
 def parser():
     global presid
-    filepath = "https://raw.githubusercontent.com/hamdyaea/USA-Presidents-history/master/pictures/presidentseal.png"
+    url = "https://raw.githubusercontent.com/hamdyaea/USA-Presidents-history/master/pictures/presidentseal.png"
+    filepath = "presseal.png"
     if os.path.exists(filepath):
         os.remove(filepath)
     filename = wget.download(url, out="presseal.png")
