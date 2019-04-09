@@ -14,37 +14,58 @@ import wget
 import os
 import sys
 
-def parser():
-    urlData = ("https://raw.githubusercontent.com/hamdyaea/USA-Presidents-history/master/presidents.json")
-    webURL = urllib.request.urlopen(urlData)
-    data = webURL.read()
-    encoding = webURL.info().get_content_charset('utf-8')
-    presid = json.loads(data.decode(encoding))
+key = 0
+
+def first():
+    global key
 
     filepath = "president.png"
 
     if os.path.exists(filepath):
         os.remove(filepath)
     try:
-        url = presid[1]["picture"]
+        url = presid[key]["picture"]
         filename = wget.download(url, out="president.png")
     except:
         print("picture not available")
         pass
 
-    print(presid[1]["president"])
-    print(presid[1]["birth_year"])
-    print(presid[1]["death_year"])
-    print(presid[1]["took_office"])
-    print(presid[1]["left_office"])
-    print(presid[1]["party"])
-    print(presid[1]["picture"])
-    print(presid[1]["history"])
-    print(len(presid))
-
     image = "president.png"
-    msg = ((presid[1]["president"])+str("\n")+str(presid[1]["history"]))
-    choices = ["Yes", "No", "No opinion"]
+    msg = (("Name : ")+str(presid[key]["president"])\
+            +str("\n")+str("President number : ")+str(presid[key]["number"])\
+            +str("\n")+str("Political party : ")+str(presid[key]["party"])\
+            +str("\n")+str("Birth year : ")+str(presid[key]["birth_year"])+str(" Death year : ")+str(presid[key]["death_year"])\
+            +str("\n")+str("Took office : ")+str(presid[key]["took_office"])+str(" Left office : ")+str(presid[key]["left_office"])\
+            +str("\n")+str(presid[key]["history"]))
+
+    if key < (len(presid)-1):
+        choices = ["Next"]
+    else:
+        choices = ["Begin","Quit"]
+
     reply = buttonbox(msg, image=image, choices=choices)
+
+    if reply == "Next":
+        key = key + 1
+        first()
+    elif reply == "Begin":
+        key = 0
+        parser()
+    elif reply == "president.png":
+        key = key + 1
+        first()
+    else:
+        sys.exit(0)
+
+def parser():
+    global presid
+    urlData = ("https://raw.githubusercontent.com/hamdyaea/USA-Presidents-history/master/presidents.json")
+    webURL = urllib.request.urlopen(urlData)
+    data = webURL.read()
+    encoding = webURL.info().get_content_charset('utf-8')
+    presid = json.loads(data.decode(encoding))
+
+
+    first()
 
 parser()
