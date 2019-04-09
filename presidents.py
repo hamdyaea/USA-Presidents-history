@@ -60,7 +60,11 @@ def first():
 
 def parser():
     global presid
-    image = "https://raw.githubusercontent.com/hamdyaea/USA-Presidents-history/master/pictures/presidentseal.png"
+    filepath = "https://raw.githubusercontent.com/hamdyaea/USA-Presidents-history/master/pictures/presidentseal.png"
+    if os.path.exists(filepath):
+        os.remove(filepath)
+    filename = wget.download(url, out="presseal.png")
+    image = "presseal.png"
     msg = "The purpose of the program is to introduce a little more the history of the presidents of the states units. The data will be changed when there is a change in the presidency of the United States. Developer - Author : Hamdy Abou El Anein"
     choices = ["Continue"]
     reply = buttonbox(msg, image=image, choices=choices)
