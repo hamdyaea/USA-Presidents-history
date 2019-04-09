@@ -66,7 +66,7 @@ def parser():
         os.remove(filepath)
     filename = wget.download(url, out="presseal.png")
     image = "presseal.png"
-    msg = "The purpose of the program is to introduce a little more the history of the presidents of the United States. The data will be changed when there is a change in the presidency of the United States.  Developer - Author : Hamdy Abou El Anein"
+    msg = "The purpose of the program is to introduce a little more the history of the presidents of the United States. The data will be changed when there is a change in the presidency of the United States.  Developer : Hamdy Abou El Anein"
     choices = ["Continue"]
     reply = buttonbox(msg, image=image, choices=choices)
     if reply == "Continue" or "presidenseal.png":
