@@ -32,7 +32,7 @@ def first():
 
 
     image = "president.png"
-    msg = (("Name : ")+str(presid[key]["president"])\
+    msg = ((presid[key]["president"])\
             +str("\n")+str("President number : ")+str(presid[key]["number"])\
             +str("\n")+str("Political party : ")+str(presid[key]["party"])\
             +str("\n")+str("Birth year : ")+str(presid[key]["birth_year"])+str(" Death year : ")+str(presid[key]["death_year"])\
