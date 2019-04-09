@@ -66,10 +66,9 @@ def parser():
         os.remove(filepath)
     filename = wget.download(url, out="presseal.png")
     image = "presseal.png"
-    msg = "The purpose of the program is to introduce a little more the history of the presidents of the states units. The data will be changed when there is a change in the presidency of the United States. Developer - Author : Hamdy Abou El Anein"
+    msg = "The purpose of the program is to introduce a little more the history of the presidents of the United States. The data will be changed when there is a change in the presidency of the United States. Developer - Author : Hamdy Abou El Anein"
     choices = ["Continue"]
     reply = buttonbox(msg, image=image, choices=choices)
-    print(reply)
     if reply == "Continue" or "presidenseal.png":
         urlData = ("https://raw.githubusercontent.com/hamdyaea/USA-Presidents-history/master/presidents.json")
         webURL = urllib.request.urlopen(urlData)
