@@ -19,7 +19,10 @@ The data will be changed when there is a change in the presidency of the United 
 ## Download the Windows .exe version :
 
 You can run it with Python 3 and the right libraries or for Windows you can use the .exe software that I created there :
-   
+
+[![Download usa-presidents-history](https://img.shields.io/sourceforge/dm/usa-presidents-history.svg)](https://sourceforge.net/projects/usa-presidents-history/files/latest/download)
+[![Download usa-presidents-history](https://a.fsdn.com/con/app/sf-download-button)](https://sourceforge.net/projects/usa-presidents-history/files/latest/download)
+
 
 ## What you need to make it work :  
 
