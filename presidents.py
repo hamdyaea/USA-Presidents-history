@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 
 # Developer : Hamdy Abou El Anein
+# hamdy.aea@protonmail.com
 
 # Make changes to the json file only with pycharm and json viewer.
 # The data can take time to be fully updated on the server-side. (raw json).
@@ -14,10 +15,11 @@ import sys
 
 key = 0
 
+
 def first():
     global key
 
-    if key > (len(presid)-1):
+    if key > (len(presid) - 1):
         key = 0
 
     filepath = "president.png"
@@ -28,19 +30,33 @@ def first():
     url = presid[key]["picture"]
     filename = wget.download(url, out="president.png")
 
-
     image = "president.png"
-    msg = ((presid[key]["president"])\
-            +str("\n")+str("President number : ")+str(presid[key]["number"])\
-            +str("\n")+str("Political party : ")+str(presid[key]["party"])\
-            +str("\n")+str("Birth year : ")+str(presid[key]["birth_year"])+str(" Death year : ")+str(presid[key]["death_year"])\
-            +str("\n")+str("Took office : ")+str(presid[key]["took_office"])+str(" Left office : ")+str(presid[key]["left_office"])\
-            +str("\n")+str(presid[key]["history"]))
+    msg = (
+        (presid[key]["president"])
+        + str("\n")
+        + str("President number : ")
+        + str(presid[key]["number"])
+        + str("\n")
+        + str("Political party : ")
+        + str(presid[key]["party"])
+        + str("\n")
+        + str("Birth year : ")
+        + str(presid[key]["birth_year"])
+        + str(" Death year : ")
+        + str(presid[key]["death_year"])
+        + str("\n")
+        + str("Took office : ")
+        + str(presid[key]["took_office"])
+        + str(" Left office : ")
+        + str(presid[key]["left_office"])
+        + str("\n")
+        + str(presid[key]["history"])
+    )
 
-    if key < (len(presid)-1):
+    if key < (len(presid) - 1):
         choices = ["Next"]
     else:
-        choices = ["Begin","Quit"]
+        choices = ["Begin", "Quit"]
 
     reply = buttonbox(msg, image=image, choices=choices)
 
@@ -56,6 +72,7 @@ def first():
     else:
         sys.exit(0)
 
+
 def parser():
     global presid
     url = "https://raw.githubusercontent.com/hamdyaea/USA-Presidents-history/master/pictures/presidentseal.png"
@@ -68,15 +85,15 @@ def parser():
     choices = ["Continue"]
     reply = buttonbox(msg, image=image, choices=choices)
     if reply == "Continue" or "presidenseal.png":
-        urlData = ("https://raw.githubusercontent.com/hamdyaea/USA-Presidents-history/master/presidents.json")
+        urlData = "https://raw.githubusercontent.com/hamdyaea/USA-Presidents-history/master/presidents.json"
         webURL = urllib.request.urlopen(urlData)
         data = webURL.read()
-        encoding = webURL.info().get_content_charset('utf-8')
+        encoding = webURL.info().get_content_charset("utf-8")
         presid = json.loads(data.decode(encoding))
     else:
         sys.exit(0)
 
-
     first()
+
 
 parser()
