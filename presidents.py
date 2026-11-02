@@ -1,99 +1,72 @@
 #!/usr/bin/env python3
-
-# Developer : Hamdy Abou El Anein
-# hamdy.aea@protonmail.com
-
-# Make changes to the json file only with pycharm and json viewer.
-# The data can take time to be fully updated on the server-side. (raw json).
-
+# Developer: Hamdy Abou El Anein
+# Contact: info@daylightlinux.ch
+# SPDX-License-Identifier: GPL-3.0-only
+"""Offline browser for the project's historical U.S. presidents dataset."""
+from __future__ import annotations
+import argparse
 import json
-import urllib.request
-from easygui import *
-import wget
-import os
-import sys
+from pathlib import Path
+import tkinter as tk
+from tkinter import ttk
 
-key = 0
+DATA = Path(__file__).resolve().parent / "presidents.json"
 
+def load_presidents(path: Path = DATA) -> list[dict]:
+    data = json.loads(path.read_text(encoding="utf-8"))
+    if not isinstance(data, list):
+        raise ValueError("Expected a list of presidents")
+    required = {"president", "number", "party", "took_office", "left_office", "history"}
+    for index, item in enumerate(data):
+        if not isinstance(item, dict) or not required.issubset(item):
+            raise ValueError(f"Invalid president record at index {index}")
+    return data
 
-def first():
-    global key
-
-    if key > (len(presid) - 1):
-        key = 0
-
-    filepath = "president.png"
-
-    if os.path.exists(filepath):
-        os.remove(filepath)
-
-    url = presid[key]["picture"]
-    filename = wget.download(url, out="president.png")
-
-    image = "president.png"
-    msg = (
-        (presid[key]["president"])
-        + str("\n")
-        + str("President number : ")
-        + str(presid[key]["number"])
-        + str("\n")
-        + str("Political party : ")
-        + str(presid[key]["party"])
-        + str("\n")
-        + str("Birth year : ")
-        + str(presid[key]["birth_year"])
-        + str(" Death year : ")
-        + str(presid[key]["death_year"])
-        + str("\n")
-        + str("Took office : ")
-        + str(presid[key]["took_office"])
-        + str(" Left office : ")
-        + str(presid[key]["left_office"])
-        + str("\n")
-        + str(presid[key]["history"])
+def description(item: dict) -> str:
+    return (
+        f"{item['number']}. {item['president']}\n"
+        f"Party: {item['party']}\n"
+        f"Term: {item['took_office']} to {item['left_office']}\n"
+        f"Born: {item.get('birth_year', 'unknown')} | Died: {item.get('death_year', 'unknown')}\n\n"
+        f"{item['history']}"
     )
 
-    if key < (len(presid) - 1):
-        choices = ["Next"]
-    else:
-        choices = ["Begin", "Quit"]
+def main() -> None:
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--list", action="store_true", help="Print the bundled names")
+    args = parser.parse_args()
+    presidents = load_presidents()
+    if args.list:
+        for item in presidents:
+            print(f"{item['number']}. {item['president']}")
+        return
+    root = tk.Tk()
+    root.title("U.S. Presidents — Historical Dataset")
+    root.geometry("950x620")
+    frame = ttk.Frame(root, padding=14)
+    frame.pack(fill="both", expand=True)
+    ttk.Label(frame, text="Historical snapshot: data may not include recent presidencies").pack(anchor="w")
+    content = ttk.Frame(frame)
+    content.pack(fill="both", expand=True, pady=10)
+    names = tk.Listbox(content, width=32, exportselection=False)
+    names.pack(side="left", fill="y")
+    details = tk.Text(content, wrap="word", padx=12, pady=12)
+    details.pack(side="left", fill="both", expand=True)
+    for item in presidents:
+        names.insert("end", f"{item['number']}. {item['president']}")
+    def select(_event=None) -> None:
+        selection = names.curselection()
+        if not selection:
+            return
+        details.config(state="normal")
+        details.delete("1.0", "end")
+        details.insert("1.0", description(presidents[selection[0]]))
+        details.config(state="disabled")
+    names.bind("<<ListboxSelect>>", select)
+    if presidents:
+        names.selection_set(0)
+        select()
+    root.mainloop()
 
-    reply = buttonbox(msg, image=image, choices=choices)
-
-    if reply == "Next":
-        key = key + 1
-        first()
-    elif reply == "Begin":
-        key = 0
-        parser()
-    elif reply == "president.png":
-        key = key + 1
-        first()
-    else:
-        sys.exit(0)
-
-
-def parser():
-    global presid
-    url = "https://raw.githubusercontent.com/hamdyaea/USA-Presidents-history/master/pictures/presidentseal.png"
-    filepath = "presseal.png"
-    if os.path.exists(filepath):
-        os.remove(filepath)
-    filename = wget.download(url, out="presseal.png")
-    image = "presseal.png"
-    msg = "Presidents of the United States\n\nThe purpose of the program is to introduce a little more the history of the presidents of the United States. The data will be changed when there is a change in the presidency of the United States.\n\nThe updated data is downloaded automatically.\n\nDeveloper : Hamdy Abou El Anein"
-    choices = ["Continue"]
-    reply = buttonbox(msg, image=image, choices=choices)
-    if reply == "Continue" or "presidenseal.png":
-        urlData = "https://raw.githubusercontent.com/hamdyaea/USA-Presidents-history/master/presidents.json"
-        webURL = urllib.request.urlopen(urlData)
-        data = webURL.read()
-        encoding = webURL.info().get_content_charset("utf-8")
-        presid = json.loads(data.decode(encoding))
-    else:
-        sys.exit(0)
-
-    first()
-
-
-parser()
+if __name__ == "__main__":
+    main()
