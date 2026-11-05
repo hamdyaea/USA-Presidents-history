@@ -50,6 +50,8 @@ def main() -> None:
     content.pack(fill="both", expand=True, pady=10)
     names = tk.Listbox(content, width=32, exportselection=False)
     names.pack(side="left", fill="y")
+    portrait = ttk.Label(content)
+    portrait.pack(side="right", padx=8)
     details = tk.Text(content, wrap="word", padx=12, pady=12)
     details.pack(side="left", fill="both", expand=True)
     for item in presidents:
@@ -58,6 +60,10 @@ def main() -> None:
         selection = names.curselection()
         if not selection:
             return
+        filename = Path(presidents[selection[0]]["picture"]).stem + "-ui.png"
+        path = Path(__file__).resolve().parent / "pictures" / filename
+        portrait.image = tk.PhotoImage(file=str(path)) if path.is_file() else None
+        portrait.configure(image=portrait.image or "")
         details.config(state="normal")
         details.delete("1.0", "end")
         details.insert("1.0", description(presidents[selection[0]]))
